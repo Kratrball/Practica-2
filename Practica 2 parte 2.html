@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+Practica Java script and html parte 2
+Author:Dennys Ortega
+Date:6/11/2022-->
+
+    <title>Practica java</title>
+</head>
+<body>
+
+  <script>
+  var a,b;
+
+  var Numero de filas=Number(prompt("numero de filas"));
+  var Numero de columnas=Number(prompt("Numero de columnas"));
+  var resultado =Numero de filas * Numero de columnas;
+
+  document.write("<table border>");
+
+  for(a=0;a<Numero de filas;a++){
+
+      document.write("<tr>");
+
+   for(b=0;a<Numero de columnas; b++) {
+         document.write("<td>");
+           document.write(resultado);
+           resultado --;
+
+            document.write("</td");  }
+            document.write("</tr"); }
+            document.write("</table>");
+ 
+  
+  </script>
+</body>
+</html>
